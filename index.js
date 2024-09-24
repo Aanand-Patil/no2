@@ -11,3 +11,9 @@ let thanks = document.getElementById("thanks")
 let para = document.createElement("p")
 para.innerText = 'Please visit us again'
 thanks.appendChild(para)
+let fruits = document.getElementsByClassName("fruit")
+
+for (i = 0; i < fruits.length; i++) {
+    fruits[i].style.fontWeight = "bold"
+}
+fruits[2].style.backgroundColor = "yellow"
